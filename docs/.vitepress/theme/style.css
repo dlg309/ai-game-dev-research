@@ -1,0 +1,5 @@
+ :root { --vp-c-brand-1: #5d48c7; --vp-c-brand-2: #735ce0; --vp-c-brand-3: #5d48c7; --vp-home-hero-name-color: transparent; --vp-home-hero-name-background: linear-gradient(120deg, #6b4ce6 15%, #008b89 90%); }
+.dark { --vp-c-brand-1: #b2a0ff; --vp-c-brand-2: #9782f0; --vp-c-brand-3: #7460cf; --vp-home-hero-name-background: linear-gradient(120deg, #b5a1ff 15%, #68e0cf 90%); }
+.VPHome { padding-bottom: 64px; }
+.VPFeature { border-radius: 16px !important; }
+.VPHero .tagline { max-width: 640px; }
