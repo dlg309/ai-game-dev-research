@@ -1,0 +1,11 @@
+=== IS218 REVIEW 1 - PLAN - CREATIVE PROJECT ===
+
+Published Site URL: https://dlg309.github.io/ai-game-dev-research/
+GitHub Repository URL: https://github.com/dlg309/ai-game-dev-research
+Peer Review GitHub Issue: https://github.com/dlg309/ai-game-dev-research/issues/1
+Peer Review Verification Commit: [pending; add the actual commit URL after committing]
+Reviewer Retest: [pending]
+
+Changed: Added five user stories, score-validation architecture, and the procedural enemy experiment.
+Checked: VitePress documentation build passed; issue feedback is owner-reported and reviewer retest is pending.
+Next: Define the turn-state rules, then implement and test the planned 100-turn simulation.

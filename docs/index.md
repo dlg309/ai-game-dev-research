@@ -1,30 +1,21 @@
----
-layout: home
-hero:
-  name: AI Game Lab
-  text: Research first. Build with purpose.
-  tagline: A living notebook for exploring how AI can help us design, plan, and eventually build better games.
-  actions:
-    - theme: brand
-      text: Start exploring
-      link: /start
-    - theme: alt
-      text: View the roadmap
-      link: /planning/roadmap
-features:
-  - title: Understand the tools
-    details: Explore AI-assisted workflows, compare engines, and keep sources beside every finding.
-    link: /research/overview
-  - title: Shape the game
-    details: Turn rough ideas into a clear player experience, a manageable scope, and a plan we can explain.
-    link: /planning/ideas
-  - title: Record the reasoning
-    details: Track decisions, open questions, and what evidence we still need before writing game code.
-    link: /planning/decisions
+# AI Game Dev Research & Project Plan
+
+Welcome to the central research and planning workspace for **IS218-003 — Review 1 — Plan — Creative Project**.
+
+## Core Project Vision
+
+- **Research Question:** How can AI coding agents and procedural generation algorithms be safely integrated into a web-based game loop while maintaining predictable state and secure player scoring? `[Proposed]`
+- **Target Audience:** Indie game developers and web developers interested in AI-native game workflows.
+
 ---
 
-## Current chapter: discovery
+> 🔗 **Related Workspace:** Visit the [IS218 Career Portfolio Research Site](https://dlg309.github.io/portfolio-plan/) *(Placeholder URL — update with your portfolio site link)*.
 
-**Research and planning are active. Game implementation comes later.** This notebook began on November 5, 2026. Initial sources are starting points, not proof that a tool is the right fit.
+---
 
-Our next step is to define the player experience, compare two realistic development paths, and choose one small gameplay loop to investigate.
+## Quick Navigation
+
+- 📘 [Concept Comparison](/spec/concepts) — Evaluation of two bounded creative directions.
+- 🛠️ [Technical Specification](/spec/tech-spec) — 5 user stories, ASCII architecture, and staged user journey.
+- 🔬 [Research & Sourcing Log](/research/) — Verified primary sources, AI assistance audit, and dates checked.
+- 🤝 [Peer Review Loop](/reviews/) — Recorded feedback, GitHub issues, and verification checks.
