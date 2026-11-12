@@ -4,8 +4,8 @@ Welcome to the central research and planning workspace for **IS218-003 — Revie
 
 ## Core Project Vision
 
-- **Research Question:** How can AI coding agents and procedural generation algorithms be safely integrated into a web-based game loop while maintaining predictable state and secure player scoring? `[Proposed]`
-- **Target Audience:** Indie game developers and web developers interested in AI-native game workflows.
+- **Research question:** Which snowboard-game patterns can make Echo Mountain's short runs worth replaying, and how can we test the resulting Unity mechanics? `[Proposed]`
+- **Audience:** IS218 classmates and developers learning from a bounded, testable Unity game. The [Echo Mountain repository](https://github.com/dlg309/EchoMountainGame) holds implementation and QA evidence. Earlier browser/turn-based pages remain as historical exploration.
 
 ---
 
@@ -17,5 +17,6 @@ Welcome to the central research and planning workspace for **IS218-003 — Revie
 
 - 📘 [Concept Comparison](/spec/concepts) — Evaluation of two bounded creative directions.
 - 🛠️ [Technical Specification](/spec/tech-spec) — 5 user stories, ASCII architecture, and staged user journey.
-- 🔬 [Research & Sourcing Log](/research/) — Verified primary sources, AI assistance audit, and dates checked.
+- 🏂 [Snowboard Game Research](/research/snowboarding) — Reference games, current Unity implementation, and next experiment.
+- 🔬 [Research & Sourcing Log](/research/) — Primary sources, AI assistance audit, and dates checked.
 - 🤝 [Peer Review Loop](/reviews/) — Recorded feedback, GitHub issues, and verification checks.
