@@ -1,5 +1,7 @@
 # Creative Concept Comparison
 
+> **Current direction:** Historical planning comparison (November 2026). The active implementation is the Unity snowboarding game [Echo Mountain](https://github.com/dlg309/EchoMountainGame). See the [current snowboard research](/research/snowboarding). The turn-based selection below documents an earlier direction and is not the current project decision.
+
 ## Option 1: Turn-Based Procedural Dungeon Crawler `[Decided]`
 
 - **Core Mechanics:** Grid-based movement, turn-based combat, and procedurally generated room layouts.
