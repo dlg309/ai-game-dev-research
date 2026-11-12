@@ -9,7 +9,7 @@ Welcome to the central research and planning workspace for **IS218-003 — Revie
 
 ---
 
-> 🔗 **Related Workspace:** Visit the [IS218 Career Portfolio Research Site](https://dlg309.github.io/portfolio-plan/) *(Placeholder URL — update with your portfolio site link)*.
+> 🔗 **Related Workspace:** Visit the [IS218 Career Portfolio Research Site](https://dlg309.github.io/ai-career-portfolio-plan/).
 
 ---
 
