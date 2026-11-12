@@ -2,6 +2,10 @@
 
 Use primary sources where possible. Record what a source actually says separately from what we infer for this project. Existing research notes remain available for the [AI workflow](./overview) and [engine comparison](./engines).
 
+## Current Echo Mountain research
+
+The [snowboard game research page](./snowboarding) compares five public game patterns and maps them to the current Unity project. Official developer and publisher sources were checked November 11, 2026. The next surface-response feature remains proposed; the integrated game's 32/32 Unity PlayMode result is an observed software check, not a playtest of that proposed feature.
+
 ## Source log
 
 | Primary source | Evidence captured | Checked | Limitation / next check |
@@ -17,7 +21,7 @@ Dates are the recorded access dates for each row. Extracts are concise summaries
 
 ## AI Assistance Audit
 
-**AI tool used:** GitHub Copilot assisted with drafting and updating this project documentation. Claude Code or ChatGPT use by other project contributors has not been confirmed in this record.
+**AI tools used:** GitHub Copilot assisted the earlier documentation draft. A Codex assistant helped synthesize the November 11 snowboard references, inspect Echo Mountain source, and draft the new research page. The listed game-feature claims were checked against linked publisher and developer pages. This record does not attribute any unconfirmed work to other contributors.
 
 **Generative role:** Drafted user stories, the ASCII architecture, experiment criteria, and source-log summaries. No game code or probabilistic decision-tree implementation was generated in this task.
 
@@ -31,3 +35,4 @@ Dates are the recorded access dates for each row. Extracts are concise summaries
 - [Technical specification and experiment](../spec/tech-spec)
 - [Project roadmap](../roadmap)
 - [AI-assisted development notes](./overview)
+- [Snowboard game research and surface-response experiment](./snowboarding)
