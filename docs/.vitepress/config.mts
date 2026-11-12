@@ -11,6 +11,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Project Spec', link: '/spec/tech-spec' },
       { text: 'Research Log', link: '/research/' },
+      { text: 'Snowboarding', link: '/research/snowboarding' },
       { text: 'Peer Reviews', link: '/reviews/' },
       { text: 'Roadmap', link: '/roadmap' }
     ],
@@ -27,7 +28,8 @@ export default defineConfig({
           { text: 'AI in game development', link: '/research/overview' },
           { text: 'Engine comparison', link: '/research/engines' },
           { text: 'Source library', link: '/research/sources' },
-          { text: 'Source & AI Log', link: '/research/' }
+          { text: 'Source & AI Log', link: '/research/' },
+          { text: 'Snowboard game research', link: '/research/snowboarding' }
         ]
       },
       {
