@@ -1,5 +1,7 @@
 # Technical Specification
 
+> **Current direction:** Historical browser-game architecture study. The current Echo Mountain implementation is a Unity desktop snowboard game; its local records are not a server account system. See the [current snowboard research](/research/snowboarding) and [implementation repository](https://github.com/dlg309/EchoMountainGame). The account-to-dashboard architecture below remains a proposed course requirement, not an implemented Echo Mountain feature.
+
 **Status:** Proposed architecture for research. No game backend, database, or account flow has been implemented.
 
 ## Proposed stack
