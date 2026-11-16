@@ -1,6 +1,6 @@
 # Planning roadmap
 
-We are in discovery. These are completion gates, not calendar promises.
+**Historical discovery checklist.** This page records the pre-implementation plan. Echo Mountain is now an implemented Unity snowboard game; use the [current roadmap](/roadmap) for active work and the [technical specification](/spec/tech-spec) for feature status. The gates below describe the earlier planning stage, not the current project state.
 
 | Phase | Output | Status |
 | --- | --- | --- |
@@ -11,7 +11,7 @@ We are in discovery. These are completion gates, not calendar promises.
 | 05 · Plan evaluation | Playtest questions and failure cases | Open |
 | 06 · Begin implementation | A deliberately small playable prototype | Later |
 
-## Before game coding begins
+## Earlier pre-coding checklist
 
 - [ ] Choose a player experience and target platform.
 - [ ] Describe the core loop in one sentence.
@@ -22,6 +22,6 @@ We are in discovery. These are completion gates, not calendar promises.
 - [ ] Write observable success and failure checks.
 - [ ] Decide what is outside the first version.
 
-## First research session
+## Earlier first research session
 
 Choose one concept from the [idea board](./ideas.md). Describe what a player does during the first minute. Then investigate the two largest uncertainties and save the findings with sources.

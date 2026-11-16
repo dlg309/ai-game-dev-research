@@ -4,7 +4,7 @@
 
 How can we use AI to make a game while still understanding its design, behavior, and limitations?
 
-This IS 218 notebook holds our research and plans. We will use it to collect evidence, compare options, and make decisions before beginning game implementation.
+This IS 218 notebook holds research, plans, and the current Echo Mountain specification. The [Unity snowboard game](https://github.com/dlg309/EchoMountainGame) is implemented in a separate repository; earlier browser-game ideas remain as historical planning records.
 
 ## What belongs here
 
@@ -15,7 +15,7 @@ This IS 218 notebook holds our research and plans. We will use it to collect evi
 
 ## Working boundaries
 
-The documentation site is ready to use. No game has been implemented or engine selected. Proposed ideas and evaluation methods are planning suggestions, not tested results.
+The documentation site and a bounded Unity snowboard game exist. See the [technical specification](./spec/tech-spec.md) for implemented versus planned features. Proposed experiments and the older account-to-dashboard journey are not implemented game behavior.
 
 ## Reading route
 

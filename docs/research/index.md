@@ -4,7 +4,9 @@ Use primary sources where possible. Record what a source actually says separatel
 
 ## Current Echo Mountain research
 
-The [snowboard game research page](./snowboarding) compares five public game patterns and maps them to the current Unity project. Official developer and publisher sources were checked November 11, 2026. The next surface-response feature remains proposed; the integrated game's 32/32 Unity PlayMode result is an observed software check, not a playtest of that proposed feature.
+The [snowboard game research page](./snowboarding) compares five public game patterns and maps them to the current Unity project. Official developer and publisher sources were checked November 11, 2026. Authored surface zones on Glacier Pass remain proposed. The integrated game's November 11 32/32 Unity PlayMode result is an observed software check, not a player-feel test.
+
+For the [current technical specification](/spec/tech-spec), the [Echo Mountain runtime source](https://github.com/dlg309/EchoMountainGame/tree/main/Assets/EchoMountain/Runtime) and [QA record](https://github.com/dlg309/EchoMountainGame/blob/main/docs/QA.md) were checked directly November 16, 2026. The QA record now includes a November 13 opt-in surface-response run with 38/38 PlayMode tests; it explicitly says the zones are not enabled on Glacier Pass. These sources support implementation and automated-check claims, not a new manual playtest.
 
 ## Source log
 

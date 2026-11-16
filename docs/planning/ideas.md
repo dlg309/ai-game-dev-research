@@ -1,6 +1,6 @@
 # Game idea board
 
-**Status:** prompts for discussion. None of these concepts is selected.
+**Status:** historical discussion prompts. Echo Mountain is the active Unity snowboard game; see the [current specification](/spec/tech-spec). None of the concepts below became the active project.
 
 | Concept | Possible core loop | Biggest question |
 | --- | --- | --- |

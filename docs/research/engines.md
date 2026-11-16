@@ -1,6 +1,6 @@
 # Engine comparison
 
-**Status:** research shortlist · **No engine selected**
+**Status:** historical engine shortlist. The active Echo Mountain game uses Unity; see the [current specification](/spec/tech-spec). The candidates below were not benchmarked against each other.
 
 Start with the kind of game we want to make. Evaluate the tools against the same small gameplay loop.
 
@@ -10,7 +10,7 @@ Start with the kind of game we want to make. Evaluate the tools against the same
 | Godot | A general-purpose 2D and 3D engine with GDScript and C# options | Would a scene-based editor help us organize the planned mechanics? |
 | Unity | An engine with documented AI-assisted development tools | Do its editor workflow and AI tools justify the setup for our scope? |
 
-These are candidates, not rankings. We have not benchmarked them.
+These were candidates, not rankings. This earlier comparison was not a benchmark or the basis for a measured engine ranking.
 
 ## Decision criteria
 

@@ -24,11 +24,11 @@ These sources establish player-facing features. They do **not** disclose proprie
 
 The current loop is **choose a line → ride and attempt a trick → land → finish and compare → retry or replay**. The rider uses four ground probes, bounded lateral grip and braking forces, a buffered pop, and landing classification. [Unity's AddForce documentation](https://docs.unity3d.com/6000.3/Documentation/ScriptReference/Rigidbody.AddForce.html) explains the force modes used by the project's Rigidbody. The code and tests, rather than reference-game marketing, establish Echo Mountain's actual behavior.
 
-**Observed check.** The integrated Unity PlayMode suite passed 32/32 tests. A Windows build started responsively and initialized Direct3D 11 and input. See the [QA evidence](https://github.com/dlg309/EchoMountainGame/blob/main/docs/QA.md). **Unrun checks:** physical controller feel, listening, and a manual standalone save/restart and replay playthrough.
+**Observed checks.** The integrated Unity PlayMode suite passed 32/32 tests on November 11. The [QA record](https://github.com/dlg309/EchoMountainGame/blob/main/docs/QA.md), checked again November 16, reports a 38/38 run on November 13 with an opt-in surface-response fixture. A Windows build started responsively and initialized Direct3D 11 and input. **Unrun checks:** physical controller feel, listening, and a manual standalone save/restart and replay playthrough.
 
 ## Design choice and next experiment
 
-**Proposed:** add authored packed-snow, powder, and ice zones to the existing course before expanding into a larger mountain. This tests whether terrain response makes line choice meaningful while preserving the current landing and score rules.
+**Proposed:** add authored packed-snow, powder, and ice zones to the existing course before expanding into a larger mountain. Opt-in response code and simulated-input tests now exist, but the zones are not enabled on Glacier Pass, per the [November 13 QA record](https://github.com/dlg309/EchoMountainGame/blob/main/docs/QA.md). Course integration would test whether terrain response makes line choice meaningful while preserving the current landing and score rules.
 
 The existing ground model can be summarized as:
 

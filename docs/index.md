@@ -16,7 +16,7 @@ Welcome to the central research and planning workspace for **IS218-003 — Revie
 ## Quick Navigation
 
 - 📘 [Concept Comparison](/spec/concepts) — Evaluation of two bounded creative directions.
-- 🛠️ [Technical Specification](/spec/tech-spec) — 5 user stories, ASCII architecture, and staged user journey.
+- 🛠️ [Technical Specification](/spec/tech-spec) — current Echo Mountain gameplay and feature status, followed by the historical browser-game plan.
 - 🏂 [Snowboard Game Research](/research/snowboarding) — Reference games, current Unity implementation, and next experiment.
 - 🔬 [Research & Sourcing Log](/research/) — Primary sources, AI assistance audit, and dates checked.
 - 🤝 [Peer Review Loop](/reviews/) — Recorded feedback, GitHub issues, and verification checks.
