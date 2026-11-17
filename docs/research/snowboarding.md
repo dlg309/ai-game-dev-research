@@ -28,6 +28,18 @@ The current loop is **choose a line → ride and attempt a trick → land → fi
 
 ## Design choice and next experiment
 
+### Surface response experiment
+
+| Item | Current record and next measurement |
+| --- | --- |
+| Hypothesis | [Assumption] Visible powder should slow the rider, ice should reduce lateral grip, and these differences should make line choice readable without harming the existing course loop. |
+| Implementation | [Fact] [SurfaceRules and SnowSurfaceMap](https://github.com/dlg309/EchoMountainGame/blob/main/Assets/EchoMountain/Runtime/SnowSurfaceMap.cs) select prototype grip/roll/brake ratios; `LabRider` applies them only while supported. The map is opt-in and Glacier Pass has no enabled powder/ice zones. |
+| Measurement | [Tested] [QA](https://github.com/dlg309/EchoMountainGame/blob/main/docs/QA.md) reports 38/38 full PlayMode and 2/2 focused surface/braking tests on November 13, including virtual S input. Compare controlled forward speed and lateral slip by surface, plus zone-boundary and airborne transitions, then record a player-feel review. |
+| Limitations | The ratios are gameplay prototypes, not material measurements. Simulated input cannot establish real controller feel; tests do not show visible course zones. The latest surface Windows build was pending in the QA record. |
+| Conclusion | [Tested] The opt-in response passed the recorded fixtures. [Proposed] Integrate visible authored zones only after boundary, route-regression, versioned record, standalone, and playtest checks. |
+
+Use the same **hypothesis → implementation → measurements → results → limitations → conclusion** record for later camera, ghost, rail, or halfpipe experiments. Link exact test output and build identity when produced; do not backfill unobserved results.
+
 **Proposed:** add authored packed-snow, powder, and ice zones to the existing course before expanding into a larger mountain. Opt-in response code and simulated-input tests now exist, but the zones are not enabled on Glacier Pass, per the [November 13 QA record](https://github.com/dlg309/EchoMountainGame/blob/main/docs/QA.md). Course integration would test whether terrain response makes line choice meaningful while preserving the current landing and score rules.
 
 The existing ground model can be summarized as:

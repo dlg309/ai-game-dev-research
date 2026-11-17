@@ -4,7 +4,7 @@ IS 218 research and planning notebook for making games with AI.
 
 **Live site:** https://dlg309.github.io/ai-game-dev-research/
 
-Game implementation is a later phase. This repository currently contains only the documentation site.
+This repository contains the documentation site. The active Unity game is in [EchoMountainGame](https://github.com/dlg309/EchoMountainGame); start with the [engineering plan](docs/spec/tech-spec.md) and [gated roadmap](docs/roadmap.md).
 
 ## Local development
 

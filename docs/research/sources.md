@@ -25,4 +25,4 @@ Copy this structure into a new note when researching a question:
 
 **Documented:** supported by a linked primary source. **Proposed:** an idea or method to evaluate. **Tested:** supported by a recorded experiment. **Decided:** accepted for the project with a reason in the decision log.
 
-Nothing in this notebook is labeled tested yet.
+The historical source-library entries above record research, not game test results. The current [Echo Mountain QA record](https://github.com/dlg309/EchoMountainGame/blob/main/docs/QA.md) separately documents tested software behavior and its limits.

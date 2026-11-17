@@ -21,5 +21,5 @@ The documentation site and a bounded Unity snowboard game exist. See the [techni
 
 1. Read [AI in game development](./research/overview.md).
 2. Review the [engine comparison](./research/engines.md).
-3. Pick a question from the [roadmap](./planning/roadmap.md).
+3. Follow the active [gated roadmap](./roadmap.md); the [earlier roadmap](./planning/roadmap.md) remains as a historical record.
 4. Save the evidence and record any decision in the [decision log](./planning/decisions.md).

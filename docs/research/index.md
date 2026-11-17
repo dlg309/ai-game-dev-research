@@ -12,6 +12,12 @@ For the [current technical specification](/spec/tech-spec), the [Echo Mountain r
 
 | Primary source | Evidence captured | Checked | Limitation / next check |
 | --- | --- | --- | --- |
+| [Echo Mountain project files](https://github.com/dlg309/EchoMountainGame) | [Fact] Inspected commit `7a22c7b`: Unity 6000.3.28f1; pinned URP, Input System, Test Framework; runtime, test, scene, README, PLANS, AGENTS, STATUS and QA. [Tested] QA records the November 13 surface fixtures. | Nov 17, 2026 | Repo inspection does not rerun Unity or establish current standalone gameplay; reproduce gates before claiming release readiness. |
+
+The table below preserves the earlier external-source log.
+
+| Primary source | Evidence captured | Checked | Limitation / next check |
+| --- | --- | --- | --- |
 | [Phaser 3.88.2 Tilemap API](https://docs.phaser.io/api-documentation/3.88.2/class/tilemaps-tilemap) | [Documented] The API describes map dimensions in tiles and tile-coordinate operations such as `getTileAt`, `putTileAt`, and coordinate conversion. It provides grid primitives; deterministic turn rules must be implemented by the game. | Nov 10, 2026 | Phaser 3.88.2 is no longer actively maintained according to the docs. Compare the current Phaser version before selecting a release. |
 | [Express session middleware](https://expressjs.com/en/resources/middleware/session.html) | [Documented] Session data is stored server-side and the cookie carries a signed session ID. The docs do not say that hashing a client score payload prevents score spoofing. | Nov 10, 2026 | Session middleware does not validate game rules or scores. The API must authorize the session and recompute or validate results. |
 | [Phaser: What is Phaser?](https://docs.phaser.io/phaser/getting-started/what-is-phaser) | [Documented] The official introduction describes Phaser as a framework for 2D browser games. This supports evaluating it for a browser prototype, not selecting it by itself. | Nov 5, 2026 | Verify current version, TypeScript workflow, and deployment details during a hands-on comparison. |

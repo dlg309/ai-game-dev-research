@@ -1,25 +1,21 @@
-# Project Roadmap
+# EchoMountain3D roadmap
 
-**Status:** Echo Mountain is an implemented Unity desktop snowboard game. The earlier browser-game account and database journey remains a historical plan; no account system or game backend has been implemented. See the [current technical specification](./spec/tech-spec.md) and [game QA record](https://github.com/dlg309/EchoMountainGame/blob/main/docs/QA.md), checked November 16, 2026.
+**Plan audited November 17, 2026 against [game source](https://github.com/dlg309/EchoMountainGame), [milestones](https://github.com/dlg309/EchoMountainGame/blob/main/PLANS.md), [status](https://github.com/dlg309/EchoMountainGame/blob/main/docs/STATUS.md), and [QA](https://github.com/dlg309/EchoMountainGame/blob/main/docs/QA.md) at `7a22c7b`.** Gates are ordered by evidence needed, not a claim that every earlier milestone is complete. See the [engineering specification](/spec/tech-spec) for scope, architecture, stories, and acceptance checks.
 
-## Project journey
+The player journey is **choose a line → ride and land → results → retry or replay**. The older **account → browser game → remote score → dashboard → settings** journey is preserved as historical material in the [technical specification](/spec/tech-spec#historical-browser-game-plan-not-echo-mountain-requirements); it is not an Echo Mountain release gate.
 
-The current game journey is **choose a line → ride and attempt a trick → land → finish and compare → retry or replay**. The older course journey, **Account access → Play Game → Save Score → Player Dashboard → Account settings**, is preserved in the [historical section of the technical specification](./spec/tech-spec.md#historical-browser-game-plan-not-echo-mountain-requirements). Its account and dashboard stages are not implemented Echo Mountain features.
-
-## Current gates
-
-| Phase | Deliverable | Status |
+| Gate | Deliverable and exit evidence | Status |
 | --- | --- | --- |
-| Documentation foundation | Public VitePress research and planning site | Complete |
-| Current concept and engine | Unity desktop snowboarding on Glacier Pass | Implemented; source checked November 16, 2026 |
-| Current gameplay | Two lines, jump practice, tricks, results, local records, and replay | Implemented; see the game QA record |
-| Surface response | Test packed-snow, powder, and ice behavior | Opt-in code tested; course integration planned |
-| Evaluation | Peer review and manual controller/save/replay playthrough | Planned; automated checks do not establish player feel |
+| 1. Audit implementation | Inventory current scene, modules, package versions, controls, test XML, build provenance, and open QA; reproduce the baseline in Unity. | [Fact] Source/records audited for this plan; [Unverified] fresh reproduction and standalone walkthrough. |
+| 2. Finalize specifications and quality standards | Agree on MVP stories, measurable criteria, evidence labels, test commands, target machine, and frame-time target. | [Proposed] This plan is the draft; gameplay targets need measurement. |
+| 3. Integrate visible snow surfaces | Author packed/powder/ice visuals and zones; test boundaries, flight, route completion, and versioned record comparability; playtest feel. | [Tested] Opt-in logic; [Proposed] course integration. |
+| 4. Validate riding slice | Physical keyboard/controller, physics seams, landing, switch camera, pause/focus/disconnect, full Windows runs, and 1080p performance. | [Tested] Simulated PlayMode and some Windows flows; [Unverified] complete hardware/performance gate. |
+| 5. Polish the slice | Improve UI readability, audio mix, spray/visual clarity, accessibility, and actionable feedback; capture a reviewed run. | [Fact] Basic HUD/audio/spray exist; [Proposed] polish and listening pass. |
+| 6. Improve replay and local comparison | Verify current memory replay and saved records across restart; then add comparable previous/best ghosts and safe retry markers. | [Fact] Replay and local records; [Unverified] standalone persistence; [Proposed] ghosts/markers. |
+| 7. Consider expansion | Evaluate rails and a physical halfpipe, then challenges, cosmetics, weather, and tools against playtest value and cost. | [Proposed] Future work only. |
 
-## Open decisions
+**Gate rule:** advance after recording the implementation commit, exact automated result, Windows build identity, observed gameplay result, known limitations, and decision in the [game QA record](https://github.com/dlg309/EchoMountainGame/blob/main/docs/QA.md) and [decision log](/planning/decisions). A documentation build verifies site compilation only.
 
-- Are account access and remote scores required for the course prototype, or only the historical end-to-end plan?
-- When should the opt-in surface response be enabled on Glacier Pass, and how will player feel be assessed?
-- What do physical controller and standalone save/restart/replay checks reveal?
+## Portfolio evidence
 
-See the [concept comparison](./spec/concepts.md), [technical specification](./spec/tech-spec.md), and [peer review log](./reviews/) for current details.
+For each gate, link the problem and decision, a focused diff/commit, tests with failures and fixes, peer feedback and its retry status, and a short gameplay capture from the tested build. This demonstrates architecture judgment, AI review, debugging, QA, and communication without claiming a reviewer retest that has not happened. The resolved documentation feedback remains in the [peer-review log](/reviews/); issue/commit links for future game work stay pending until created.

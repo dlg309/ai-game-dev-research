@@ -4,6 +4,8 @@ The active game and the earlier research proposal are separate. The public-facin
 
 ## Current Echo Mountain technology and experiment
 
+- **[Proposed] November 17, 2026 engineering sequence:** Audit/reproduce the Unity baseline, finalize checks, integrate visible authored surface zones, validate Windows controls/physics/performance, polish, then consider local ghosts and expansion. Rationale: the opt-in surface code already exists, while course visuals and player-feel evidence do not. Status remains proposed; see the [public roadmap](../docs/roadmap.md).
+
 - **[Fact] Checked November 16, 2026:** The active game is a Unity desktop project. Its runtime owns riding, scoring, local records, and in-memory replay; see the [game repository](https://github.com/dlg309/EchoMountainGame) and [QA record](https://github.com/dlg309/EchoMountainGame/blob/main/docs/QA.md).
 - **[Tested]** Packed-snow, powder, and ice response has opt-in code and simulated-input PlayMode coverage (38/38 full suite reported November 13). **[Proposed]** Enable authored zones on Glacier Pass after course and player-feel checks. The tested code is not evidence that zones are already in the course.
 - **[Open]** Decide whether accounts and remote score persistence are required for the course prototype. Neither is part of the implemented Unity game.

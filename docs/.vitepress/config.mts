@@ -9,7 +9,7 @@ export default defineConfig({
     siteTitle: 'AI Game Dev Research',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Project Spec', link: '/spec/tech-spec' },
+      { text: 'Engineering Plan', link: '/spec/tech-spec' },
       { text: 'Research Log', link: '/research/' },
       { text: 'Snowboarding', link: '/research/snowboarding' },
       { text: 'Peer Reviews', link: '/reviews/' },
@@ -35,7 +35,7 @@ export default defineConfig({
       {
         text: 'PLANNING',
         items: [
-          { text: 'Roadmap', link: '/planning/roadmap' },
+          { text: 'Earlier planning roadmap', link: '/planning/roadmap' },
           { text: 'Game ideas', link: '/planning/ideas' },
           { text: 'Decision log', link: '/planning/decisions' }
         ]
@@ -44,8 +44,8 @@ export default defineConfig({
         text: 'IS218 DELIVERABLES',
         items: [
           { text: 'Concept Comparison', link: '/spec/concepts' },
-          { text: 'Technical Spec & Architecture', link: '/spec/tech-spec' },
-          { text: 'Project Roadmap', link: '/roadmap' },
+          { text: 'Engineering Plan & Architecture', link: '/spec/tech-spec' },
+          { text: 'Gated Roadmap', link: '/roadmap' },
           { text: 'Peer Review Loop', link: '/reviews/' }
         ]
       }
